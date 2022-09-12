@@ -1,0 +1,1 @@
+alert('Skryp działa prawidłowo')
