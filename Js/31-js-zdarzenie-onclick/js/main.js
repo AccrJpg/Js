@@ -1,7 +1,7 @@
 let button = document.querySelector('button');
 
 button.onclick = function() {
-    alert('kkalalal');
+    alert('Działa!');
 }
 
 console.log(button);
