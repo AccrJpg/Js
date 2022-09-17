@@ -1,6 +1,10 @@
 let num1 = 2;
 let num2 = 5;
 
-let attempt = Math.max( num1, num2);
+function biggerNumber(num1, num2) {
+    let result = Math.max(num1, num2);
+    return result;
+}
 
-document.getElementById("test").innerHTML = attempt
+console.log(biggerNumber(num1, num2));
+

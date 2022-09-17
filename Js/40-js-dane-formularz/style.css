@@ -1,0 +1,14 @@
+body{
+    background-color: salmon;
+}
+
+#container {
+    background-color: antiquewhite;
+    width: 450px;
+    height: 450px;
+}
+#name, #surname, #phone  {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(241, 195, 195);
+}
