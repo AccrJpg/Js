@@ -1,11 +1,9 @@
-document.getElementById("click").onclick = function() {copy};
+document.getElementById("click").onclick = function() {
 
-function copy() {
-    document.getElementById("imie").value = document.getElementById("fname").value;
+
+    document.getElementById("name").innerText = document.getElementById("fname").value;
     
-}
 
-function copy() {
-    document.getElementById("nazwisko").value = document.getElementById("lname").value;
+    document.getElementById("surname").innerText = document.getElementById("lname").value;
 }
 
