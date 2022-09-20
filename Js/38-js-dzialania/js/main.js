@@ -3,9 +3,9 @@ let b = 2;
 
 function math(a, b) {
 
-    resultAdd = a + b;
-    resultSubstraction = a - b;
-    resultMultiply = a * b;
+    let resultAdd = a + b;
+    let resultSubstraction = a - b;
+    let resultMultiply = a * b;
 
 
     function add(a, b) {
@@ -54,4 +54,4 @@ function math(a, b) {
     console.log(multiply(a, b));
 }
 
-console.log(math(a, b));
+(math(a, b));
