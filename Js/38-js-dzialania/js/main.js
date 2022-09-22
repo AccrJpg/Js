@@ -8,50 +8,29 @@ function math(a, b) {
     let resultMultiply = a * b;
 
 
-    function add(a, b) {
-        if (resultAdd > 0) {
-            let resultAdd = a + b;
-            return 'Wynik dodawania wynosi' + resultAdd
-        }
-        else if (resultAdd < 0) {
-            let resultAdd = a + b;
-            return "Wynik jest nieprawidłowy";
-        }
+    if (resultAdd >= 0) {
+        console.log('Wynik dodawania wynosi' + resultAdd);
     }
-    console.log(add(a, b));
-
-
-    function substraction(a, b) {
-
-        if (resultSubstraction > 0) {
-            let resultSubstraction = a - b;
-            return 'Wynik odejmowania wynosi' + resultSubstraction
-
-        }
-
-        else if (resultSubstraction < 0) {
-            let resultSubstraction = a - b;
-            return "Wynik jest nieprawidłowy";
-        }
+    else {
+        console.log("Wynik jest nieprawidłowy");
     }
-    console.log(substraction(a, b));
 
-    function multiply(a, b) {
-
-        if (resultMultiply > 0) {
-            let resultMultiply = a * b;
-            return 'Wynik mnozenia wynosi' + resultMultiply;
-        }
-
-
-        else if (resultMultiply < 0) {
-
-            let resultMultiply = a * b;
-            return "Wynik jest nieprawidłowy";
-        }
-
+    if (resultSubstraction > 0) {
+        console.log('Wynik odejmowania wynosi' + resultSubstraction);
     }
-    console.log(multiply(a, b));
+
+    else {
+        console.log("Wynik jest nieprawidłowy");
+    }
+
+
+    if (resultMultiply > 0) {
+        console.log('Wynik mnozenia wynosi' + resultMultiply);
+    }
+
+
+    else {
+        console.log("Wynik jest nieprawidłowy");
+    }
 }
-
 (math(a, b));
